@@ -7,9 +7,9 @@ export const navbarData = [
 ];
 
 export const statsData = [
-  { num: 1, title: "Year(s) of Experience" },
-  { num: 4, title: "Projects Completed" },
-  { num: 6, title: "Technologies mastered" },
+  { num: 3, title: "Year(s) of Experience" },
+  { num: 6, title: "Accounts Manged" },
+  { num: 10, title: "Portfolio Assets" },
 ];
 
 export const experienceData = [

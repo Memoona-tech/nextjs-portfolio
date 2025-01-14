@@ -1,12 +1,10 @@
 "use client";
 
 import Container from "@/components/container";
-import { Button } from "@/components/ui/button";
 import HomeDescription from "@/components/HomeDescription";
 import Photo from "@/components/photo";
-import SocialLinks from "@/components/ui/socialLinks";
 import Statistics from "@/components/ui/statistics";
-import { Download } from "lucide-react";
+
 
 export default function Home() {
   return (
@@ -17,13 +15,13 @@ export default function Home() {
           {/* Name & Profession */}
           <div>
             <h3 className="font-semibold tracking-wider mb-1">
-              Computer Science
+              Digital Assets trading expert
             </h3>
             <h2 className="text-3xl md:text-5xl mb-2 text-white">
               Hello, I&apos;m
             </h2>
-            <h1 className="text-lightSky text-5xl md:text-7xl tracking-normal">
-              Memoona Saleem
+            <h1 className="text-blue text-5xl md:text-7xl tracking-normal">
+              MishaelXchange
             </h1>
           </div>
 
@@ -34,21 +32,8 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Download CV Button */}
-          <Button
-            className="bg-transparent 
-            rounded-full border 
-            border-lightSky/50 
-            text-lightSky 
-            hover:bg-hoverColor 
-            hover:text-black hoverEffect"
-            onClick={() => window.open("resume.pdf", "_blank")}
-          >
-            Download CV <Download />
-          </Button>
-
           {/* Social Links & Statistics */}
-          <SocialLinks />
+          {/*<SocialLinks />*/}
           <Statistics />
         </div>
 
