@@ -66,7 +66,9 @@ const ContactForm = () => {
         form.append('Message', formData.Message);
         form.append('Service', formData.Service);
         form.append('DateTime', currentDateTime);
+      
         const response = await fetch('https://getform.io/f/aejrjgdb' ,{
+
             method: 'POST',
             body:form,
         } );
