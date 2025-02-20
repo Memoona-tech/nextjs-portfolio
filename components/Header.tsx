@@ -9,31 +9,31 @@ import Sidebar from "./sidebar";
 import { useState } from "react";
 
 const Header = () => {
+
+  // State to manage the sidebar visibility
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
+
+  // Get the current pathname
   const pathname = usePathname();
+
   return (
     <header
-      className="border-b
-     border-b-hoverColor/50
-      bg-bodyColor
-       text-white
-       sticky top-0 z-50"
+      className="border-b border-b-hoverColor/50 bg-bodyColor text-white sticky top-0 z-50"
     >
       <Container
-        className="py-5 flex
-       items-center
-        justify-between"
+        className="py-5 flex items-center justify-between"
       >
-        <Logo title="Memoona" subtitle="." />
+        {/* Logo component */}
+        <Logo title="ShaelCore" subtitle="." />
 
+        {/* Navigation links for larger screens */}
         <div className="hidden md:inline-flex items-center gap-7 text-sm uppercase tracking-wide font-medium">
           {navbarData?.map((item) => (
             <Link
               key={item?.title}
               href={item?.href}
-              className={`hover:text-hoverColor hoverEffect relative group
-                overflow-x-hidden
-            ${pathname === item?.href && "text-hoverColor"}`}
+              className={`hover:text-hoverColor hoverEffect relative group overflow-x-hidden
+                ${pathname === item?.href && "text-hoverColor"}`}
             >
               {item?.title}
               <span
@@ -46,15 +46,11 @@ const Header = () => {
             </Link>
           ))}
 
-          <Link
-            href="resume.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-sm bg-lightSky/10 px-4 py-2 rounded-md border border-hoverColor/10 hover:border-hoverColor hover:bg-hoverColor hover:text-black hoverEffect"
-          >
-            Hire Me
-          </Link>
+          {/* Hire Me button */}
+
         </div>
+
+        {/* Menu button for smaller screens */}
         <button
           aria-label="Toggle menu"
           onClick={() => setIsSidebarOpen(!isSidebarOpen)}
@@ -63,6 +59,8 @@ const Header = () => {
           <TbMenu2 className="text-3xl" />
         </button>
       </Container>
+
+      {/* Sidebar for smaller screens */}
       {isSidebarOpen && (
         <div className="md:hidden">
           <Sidebar
@@ -70,10 +68,10 @@ const Header = () => {
             onClose={() => setIsSidebarOpen(false)}
             pathName={pathname}
           />
-
         </div>
       )}
     </header>
   );
 };
+
 export default Header;

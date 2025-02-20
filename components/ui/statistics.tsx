@@ -20,7 +20,7 @@ const statistics = () => {
             duration={5}
             delay={2}
             className="text-4xl lg:text-6xl font-extrabold text-white"
-          />
+          />+
           <p className="leading-snug text-sm">{item?.title}</p>
         </div>
       ))}

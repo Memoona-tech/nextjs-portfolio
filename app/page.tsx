@@ -21,7 +21,7 @@ export default function Home() {
               Hello, I&apos;m
             </h2>
             <h1 className="text-blue text-5xl md:text-7xl tracking-normal">
-              MishaelXchange
+              ShaelCore
             </h1>
           </div>
 

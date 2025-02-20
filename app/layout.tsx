@@ -11,8 +11,8 @@ const jetbrains = localFont({
   weight: "100 800",
 });
 export const metadata: Metadata = {
-  title: "MishaelXchange",
-  description: "Portfolio for MishaelXchange| Built by Tempah",
+  title: "Shaelcore",
+  description: "Portfolio for ShaelCore| Built by Tempah",
 };
 
 export default function RootLayout({

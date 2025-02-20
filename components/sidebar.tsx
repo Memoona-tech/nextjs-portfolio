@@ -4,7 +4,6 @@ import React from "react";
 import Logo from "./Logo";
 import { navbarData } from "@/Constants";
 import Link from "next/link";
-import SocialLinks from "./ui/socialLinks";
 
 interface Props {
   isOpen: boolean;
@@ -35,13 +34,13 @@ const Sidebar: React.FC<Props> = ({ isOpen, onClose, pathName }: Props) => {
       </div>
 
 
-      <nav className="flex flex-col px-5 gap-7 uppercase text-sm tracking-wide font-medium mt-2">
-        <Logo title="Memoona" subtitle="." />
+      <nav className="flex flex-col px-5 gap-7 text-sm tracking-wide font-medium mt-2">
+        <Logo title="ShaelCore" subtitle="." />
 
 
         {navbarData?.map((item) => (
           <Link
-            className={`hover:text-hoverColor hoverEffect ${
+            className={`hover:text-hoverColor hoverEffect uppercase ${
               pathName === item?.href && "text-hoverColor"
             }`}
             key={item?.title}
@@ -52,18 +51,7 @@ const Sidebar: React.FC<Props> = ({ isOpen, onClose, pathName }: Props) => {
           </Link>
           
         ))}
-
-        <Link
-            href="resume.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-sm bg-lightSky/10 px-4 py-2 rounded-md border border-hoverColor/10 hover:border-hoverColor hover:bg-hoverColor hover:text-black hoverEffect"
-          >
-            Hire Me
-          </Link>
-
-          <SocialLinks/>
-          
+          {/*<SocialLinks/>*/}
       </nav>
     </div>
   );

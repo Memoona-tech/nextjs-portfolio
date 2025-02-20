@@ -66,7 +66,7 @@ const ContactForm = () => {
         form.append('Message', formData.Message);
         form.append('Service', formData.Service);
         form.append('DateTime', currentDateTime);
-        const response = await fetch('https://getform.io/f/aolldmlb' ,{
+        const response = await fetch('https://getform.io/f/aejrjgdb' ,{
             method: 'POST',
             body:form,
         } );
@@ -170,9 +170,7 @@ const ContactForm = () => {
             <SelectContent className="text-white border-white/10 bg-bodyColor font-semibold">
               <SelectGroup>
 
-                <SelectItem value="Web Development">Web Development</SelectItem>
-                <SelectItem value="UI/UX Design"> UI/UX Design</SelectItem>
-                <SelectItem value="SEO Management">SEO Management</SelectItem>
+                <SelectItem value="Asset Management">Asset Management</SelectItem>
 
               </SelectGroup>
             </SelectContent>

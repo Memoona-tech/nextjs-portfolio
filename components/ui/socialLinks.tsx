@@ -7,22 +7,22 @@ const socialData = [
   {
     title: "Github",
     icon: <Github />,
-    href: "https://github.com/Memoona-tech",
+    href: "https://github.com/tempahh",
   },
   {
     title: "LinkedIn",
     icon: <Linkedin />,
-    href: "https://www.linkedin.com/in/memoonasaleem/",
+    href: "https://www.linkedin.com/",
   },
   {
     title: "YouTube",
     icon: <Youtube />,
-    href: "https://www.youtube.com/@SkyCarly",
+    href: "https://www.youtube.com/",
   },
   {
     title: "Instagram",
     icon: <Instagram />,
-    href: "https://www.instagram.com",
+    href: "https://www.instagram.com/",
   },
 ];
 
@@ -37,7 +37,7 @@ const SocialLinks = () => {
         <Tooltip key={item?.title}>
             <TooltipTrigger asChild>
             <div 
-                className=" text-lightSky/80 border 
+                className=" text-white border 
                 border-lightSky/30 p-2.5
                 hover:bg-hoverColor/10
                 hover:border-lightSky

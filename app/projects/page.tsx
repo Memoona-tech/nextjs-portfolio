@@ -14,62 +14,50 @@ import { useState } from "react";
 import Image from "next/image";
 
 import project1 from "./images/project1.png";
-import project2 from "./images/project2.png";
+// project2 from "./images/project2.png";
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import project3 from "./images/project3.png";
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import project4 from "./images/project4.png";
 import { Separator } from "@radix-ui/react-separator";
-import {
-  Tooltip,
-  TooltipProvider,
-  TooltipTrigger,
-} from "@/components/ui/tooltip";
-import Link from "next/link";
-import { Github } from "lucide-react";
-import { Button } from "@/components/ui/button";
+
 
 const Projects = [
   {
     id: "01",
-    title: "Notes App",
-    category: "Full Stack",
+    title: "Crypto Hedge Portfolio",
+    category: "Asset Management",
     description:
-      "A simple and aesthetic notes app that allows users to create, edit, and delete notes. Using the cool features of JavaScript to make it happen while using HTML and CSS to make it interactive for user.",
-    stack: ["HTML", "CSS", "JavaScript"],
+      "Manages a hedge portfolio of 6 accounts with a total of 10 crypto assets. The portfolio was designed to hedge against the volatility of the cryptocurrency market while turning in periodic profits.",
+    //stack: ["HTML", "CSS", "JavaScript"],
     image: project1,
-    githubUrl: "https://github.com/Memoona-tech/Notes-App",
-  },
-  {
-    id: "02",
-    title: "Analog Clock",
-    category: "Full Stack",
-    description:
-      "A simple and clean analogue clock that displays the current time. Using mathematical formula to measure the actual time but making it happen through JS, design provided by CSS.",
-    stack: ["HTML", "CSS", "JavaScript"],
-    image: project2,
-    githubUrl: "https://github.com/Memoona-tech/Analog-Clock",
-  },
-  {
-    id: "03",
-    title: "Weather App",
-    category: "Full Stack",
-    description:
-      "Weather app that allows users to search for the weather of any city in the world. Huge role of API and functionality of JavaScript combined with the beauty oh HTML and CSS. ",
-    stack: ["HTML", "CSS", "JavaScript" , "API"],
-    image: project3,
-    githubUrl: "https://github.com/Memoona-tech/Weather-App",
-  },
-  {
-    id: "04",
-    title: "Calculator App",
-    category: "Full Stack",
-    description:
-      "A simple and clean calculator app that performs basic arithmetic operations on interger as well as floating point numbers.",
-    stack: ["HTML", "CSS", "JavaScript"],
-    image: project4,
-    githubUrl: "https://github.com/Memoona-tech/Calculator",
+    //githubUrl: "https://github.com/Memoona-tech/Crypto-Hedge-Portfolio",
   },
 ];
 
+/**
+ * Component representing the Project Page.
+ *
+ * @component
+ * @returns {JSX.Element} The rendered Project Page component.
+ *
+ * @example
+ * // Usage example:
+ * <ProjectPage />
+ *
+ * @description
+ * The `ProjectPage` component renders a page layout containing a carousel of project cards.
+ * Each card displays project details such as the project ID, category, description, and an image.
+ * The carousel allows users to navigate through different projects.
+ *
+ * @remarks
+ * - The component uses the `useState` hook to manage the current index of the carousel.
+ * - The `handleSlideChange` function updates the current index when the carousel slide changes.
+ * - The `Carousel` component is configured with options for alignment and looping.
+ * - Each project card includes a link to the project's GitHub repository.
+ *
+ * @returns {JSX.Element} The rendered Project Page component.
+ */
 const ProjectPage = () => {
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -109,38 +97,9 @@ const ProjectPage = () => {
                             <p className="text-white/60 text-sm md:text-base leading-6 md:leading-normal py-4 ">
                               {project?.description}
                             </p>
-
-                            <div className="flex flex-wrap md:flex-nowrap gap-2 md:gap-4 items-center">
-                              {project?.stack?.map((item, index) => (
-                                <li
-                                  key={index}
-                                  className="text-xs md:text-base text-lightSky/80"
-                                >
-                                  {item}
-                                  {index !== project?.stack?.length - 1 && ","}
-                                </li>
-                              ))}
-                            </div>
                             <Separator className="bg-gray-700 h-px my-4" />
 
-                            <TooltipProvider>
-                              <Tooltip>
-                                <TooltipTrigger asChild>
-                                  <Button
-                                    size="icon"
-                                    className=" items-center text-lightSky border border-hoverColor/30 hover:bg-lightSky/10 hover:border-lightSky/70"
-                                  >
-                                    <Link
-                                      href={project?.githubUrl}
-                                      target="_blank"
-                                    >
-                                      <Github />{""}
-                                      <span className="sr-only">View Github repositry</span>
-                                    </Link>
-                                  </Button>
-                                </TooltipTrigger>
-                              </Tooltip>
-                            </TooltipProvider>
+                            
                           </div>
                         </div>
                       </div>
