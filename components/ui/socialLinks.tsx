@@ -22,7 +22,7 @@ const socialData = [
   {
     title: "YouTube",
     icon: <Youtube />,
-    href: "https://www.youtube.com/@SkyCarly",
+    href: "https://www.youtube.com",
   },
   {
     title: "Instagram",
