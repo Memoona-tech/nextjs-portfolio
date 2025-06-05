@@ -7,8 +7,8 @@ export const navbarData = [
 ];
 
 export const statsData = [
-  { num: 1, title: "Year(s) of Experience" },
-  { num: 4, title: "Projects Completed" },
+  { num: 1.5, title: "Year(s) of Experience" },
+  { num: 7, title: "Projects Completed" },
   { num: 6, title: "Technologies mastered" },
 ];
 
@@ -23,7 +23,7 @@ export const experienceData = [
     id: "02",
     title: "Fullstack Developer",
     description:
-      "I learnt Fullstack Development with experience by building different websites and web applications involving the use of different technologies such as Next.js, TypeScript, JavaScript, Tailwind CSS, HTML ",
+      "I learnt Fullstack Development with experience by building different websites and web applications involving the use of different technologies such as React / Next.js, TypeScript, JavaScript, Tailwind CSS, HTML ",
    },
   
 ];

@@ -17,6 +17,9 @@ import project1 from "./images/project1.png";
 import project2 from "./images/project2.png";
 import project3 from "./images/project3.png";
 import project4 from "./images/project4.png";
+import duolingo from "./images/duolingo.png";
+import journalApp from "./images/journalApp.png";
+
 import { Separator } from "@radix-ui/react-separator";
 import {
   Tooltip,
@@ -30,6 +33,36 @@ import { Button } from "@/components/ui/button";
 const Projects = [
   {
     id: "01",
+    title: "Xuolingo",
+    category: "Full Stack",
+    description:
+      "Duolinog-inspired language learning app. To give the app a unique touch, an AI-tutor is integrated to help users learn languages in a more interactive way.",
+    stack: ["React / Nextjs", "Tailwind CSS", "TypeScript"],
+    image: duolingo,
+    githubUrl: "https://github.com/Memoona-tech/",
+  },
+  {
+    id: "02",
+    title: "Memoona's Portfolio",
+    category: "Frontend",
+    description:
+      "A personal portfolio website to showcase my skills, projects, and experiences. It is designed to be visually appealing and user-friendly.",
+    stack: ["React / Nextjs", "Tailwind CSS", "TypeScript"],
+    image: duolingo,
+    githubUrl: "https://github.com/Memoona-tech/",
+  },
+  {
+    id: "03",
+    title: "Journal App",
+    category: "Frontend",
+    description:
+      "A cute journaling app to keep your secrets inside a 4-digit PIN-ed locker",
+    stack: ["React / Nextjs", "Tailwind CSS", "TypeScript"],
+    image: journalApp,
+    githubUrl: "https://github.com/Memoona-tech/JournalApp",
+  },
+  {
+    id: "04",
     title: "Notes App",
     category: "Full Stack",
     description:
@@ -39,7 +72,7 @@ const Projects = [
     githubUrl: "https://github.com/Memoona-tech/Notes-App",
   },
   {
-    id: "02",
+    id: "05",
     title: "Analog Clock",
     category: "Full Stack",
     description:
@@ -49,7 +82,7 @@ const Projects = [
     githubUrl: "https://github.com/Memoona-tech/Analog-Clock",
   },
   {
-    id: "03",
+    id: "06",
     title: "Weather App",
     category: "Full Stack",
     description:
@@ -59,7 +92,7 @@ const Projects = [
     githubUrl: "https://github.com/Memoona-tech/Weather-App",
   },
   {
-    id: "04",
+    id: "07",
     title: "Calculator App",
     category: "Full Stack",
     description:
