@@ -17,7 +17,8 @@ import project1 from "./images/project1.png";
 import project2 from "./images/project2.png";
 import project3 from "./images/project3.png";
 import project4 from "./images/project4.png";
-import duolingo from "./images/duolingo.png";
+import xuolingo from "./images/xuolingo.png";
+import portfolio from "./images/portfolio.png";
 import journalApp from "./images/journalApp.png";
 
 import { Separator } from "@radix-ui/react-separator";
@@ -38,7 +39,7 @@ const Projects = [
     description:
       "Duolinog-inspired language learning app. To give the app a unique touch, an AI-tutor is integrated to help users learn languages in a more interactive way.",
     stack: ["React / Nextjs", "Tailwind CSS", "TypeScript"],
-    image: duolingo,
+    image: xuolingo,
     githubUrl: "https://github.com/Memoona-tech/",
   },
   {
@@ -48,7 +49,7 @@ const Projects = [
     description:
       "A personal portfolio website to showcase my skills, projects, and experiences. It is designed to be visually appealing and user-friendly.",
     stack: ["React / Nextjs", "Tailwind CSS", "TypeScript"],
-    image: duolingo,
+    image: portfolio,
     githubUrl: "https://github.com/Memoona-tech/",
   },
   {
