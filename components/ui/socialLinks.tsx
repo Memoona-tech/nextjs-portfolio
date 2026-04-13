@@ -17,7 +17,7 @@ const socialData = [
   {
       title: "Email",
       icon: <Mail/>,
-      href: "mailto:cuteskiesquery@gmail.com",
+      href: "mailto:memoona.se@gmail.com",
     },
   {
     title: "YouTube",
