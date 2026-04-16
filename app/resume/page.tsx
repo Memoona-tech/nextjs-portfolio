@@ -19,20 +19,25 @@ const tabsContent = {
       {
         role: "Fullstack Developer",
         Description:
-          "I learnt Fullstack Development with experience of building different websites and web applications involving the use of different technologies such as Next.js, TypeScript, JavaScript, Tailwind CSS, HTML.",
-        highlights: ["React", "Next.js", "TypeScript","Tailwind CSS", "Team Leasdership"],
+          "I build Fullstack Applications using",
+        highlights: ["React/ Next.js", "TypeScript","Tailwind CSS", "HTML", "CSS"],
       },
       {
-        role: "Frontend Developer",
+        role: "Technical/Programmatic Sills",
         Description:
-          "I learntFrontend Developer by building websites and web applications. I specialize in HTML, CSS, and JavaScript.",
-        highlights: ["HTML", "CSS", "JavaScript", "Team Leasdership"],
+          "Data Structures and Algorithms, System Designs.",
+        highlights: ["Python", "C++"],
       },
       {
-        role: "OOP Developer",
+        role: "Related Coursework",
+        Description: "Learnt the following subjects during my academic years:",
+        highlights: ["Probability & Statistics", "Discrete Mathematics", "Computer Organization & Assembly Language","Calculus & Analytical Geometry", "Multivariate Calculus", "Operating Systems", "Compiler Construction", "Database Systems", "Computer Networks"]
+      },
+      {
+        role: "Tools",
         Description:
-          "OOP Developer woorking with C, C++, C# and Python. I have experience in building different projects and applications.",
-        highlights: ["C", "C++", "C# (basic)", "Python (Intermediate)"],
+          "Git & GitHub, VScode, Linux",
+        highlights: ["Git & GitHub", "VScode", "Linux],
       },
     ],
   },
@@ -42,36 +47,30 @@ const tabsContent = {
     items: [
       {
         degree: "Bachelors of Computer Science",
-        period: "Present-2027",
+        period: "On going",
         Description:
           "Currently persuing bachelors in CS and Robusting my skills in the emerging field of Computer Science and learning new technologies",
-        highlights: [
-          "Programming Fundamental","ICT", "Assembly Language", "Discrete Structures", "Digital Logic Design", "Calculus & Analytical Geometry", "Linear Algebra", "Applied Physics" 
-        ],
+        highlights: ["Probability & Statistics", "Discrete Mathematics", "Computer Organization & Assembly Language","Calculus & Analytical Geometry", "Multivariate Calculus", "Operating Systems", "Compiler Construction", "Database Systems", "Computer Networks"]
+    ,
       },
       {
         degree: "Intermediate in Computer Science",
         instituation: "Govt. Graduate College",
-        period: "2021 - 2023",
         Description:
           "Started building my base in the emerging field of computer science",
         highlights: [
           "A+ Grade",
           "Stood at 1st position in the class",
-          "Topper of the college",
-          "One of the best Students of the year",
+          "Topper of the college (Computer Science Department)",
         ],
       },
       {
         degree: "Matriculation in Biology",
-        instituation: "Govt. Girls MC School",
-        period: "2019 - 2021",
         Description:
-          "Learnt a lot about different branches of Science such as Biology, Chemistry,Mathematics, Physics and many others",
+          "Learnt a lot about different branches of Science such as Biology, Chemistry, Mathematics, Physics and many others",
         highlights: [
           "A+ Grade",
-          "Topper of the school",
-          "One of the best Students of the year",
+          "Topped the class",
         ],
       },
     ],
@@ -79,22 +78,20 @@ const tabsContent = {
 
   about: {
     title: "About Me",
-    bio: "Passionate software developer with over 1 year of experience in building modern websites and web applications. I specialize in HTML, CSS, and JavaScript. I am a quick learner and a team player who is always looking to grow and improve my skills.",
+    bio: "I am a Computer Science undergraduate with huge passion for software development and problem-solving."
+    interests: [
+      "Badminton", "Chess" , "Traveling", "Sketching"
+    ],
     interests: [
       "Software Development",
-      "Web Development",
       "Open Source Contribution",
-      "Mechine Learning",
-      "Team Leadership",
       "Artificial Intelligence",
       "Ethetical Hacking",
     ],
     Languages: [
       "Urdu (Native)",
-      "Punjabi (Native)",
       "English (Professional level)",
-      "Hindi (Intermediate)",
-      "Arabic(Intermediate)",
+      "French (beginner)"
     ],
   },
 };
