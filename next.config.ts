@@ -14,13 +14,6 @@ const nextConfig: NextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
-  // Reduce webpack memory usage
-  webpack: (config, { isServer }) => {
-    if (!isServer) {
-      config.optimization.minimize = false;
-    }
-    return config;
-  },
 };
 
 export default nextConfig;
