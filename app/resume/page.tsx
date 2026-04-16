@@ -78,8 +78,8 @@ const tabsContent = {
 
   about: {
     title: "About Me",
-    bio: "I am a Computer Science undergraduate with huge passion for software development and problem-solving."
-    interests: [
+    bio: "I am a Computer Science undergraduate with huge passion for software development and problem-solving.",
+    hobbies: [
       "Badminton", "Chess" , "Traveling", "Sketching"
     ],
     interests: [
@@ -224,6 +224,16 @@ const resumePage = () => {
                   className="border rounded-lg border-lightSky/20 p-6"
                 >
                   <p className="mb-6 text-lg">{tabsContent.about.bio}</p>
+                  <div>
+                      <h3 className="text-lg font-semibold mb-2">Hobbies</h3>
+                      <div className="flex flex-wrap gap-2">
+                          {tabsContent.about.hobbies.map((hobby, i) => (
+                            <Badge key={i} variant="secondary">
+                              {hobby}
+                            </Badge>
+                          ))}
+                      </div>
+                  </div>
                   <div className="space-y-4">
                     <div>
                       <h3 className="text-lg font-semibold mb-2">Interests</h3>
