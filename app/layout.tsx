@@ -11,7 +11,7 @@ const jetbrains = localFont({
   weight: "100 800",
 });
 export const metadata: Metadata = {
-  title: "Memoona | CS Student",
+  title: "Memoona | CS Major",
   description: "Portfolio of Memoona Saleem",
 };
 
