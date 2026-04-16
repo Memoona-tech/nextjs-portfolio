@@ -56,7 +56,7 @@ const tabsContent = {
       {
         degree: "Intermediate in Computer Science",
         instituation: "Govt. Graduate College",
-        Description:
+        description:
           "Started building my base in the emerging field of computer science",
         highlights: [
           "A+ Grade",
