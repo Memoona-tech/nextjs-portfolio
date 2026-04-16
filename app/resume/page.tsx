@@ -37,7 +37,7 @@ const tabsContent = {
         role: "Tools",
         Description:
           "Git & GitHub, VScode, Linux",
-        highlights: ["Git & GitHub", "VScode", "Linux],
+        highlights: ["Git & GitHub", "VScode", "Linux"],
       },
     ],
   },
