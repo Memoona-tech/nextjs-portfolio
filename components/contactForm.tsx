@@ -154,7 +154,7 @@ const ContactForm = () => {
           <Textarea
             name="Message"
             id="Message"
-            placeholder="Text here"
+            placeholder="Please Email instead 📩 ( memoona.se@gmail.com )"
             required
             rows={6}
             value={formData.Message}
@@ -170,8 +170,8 @@ const ContactForm = () => {
             <SelectContent className="text-white border-white/10 bg-bodyColor font-semibold">
               <SelectGroup>
 
-                <SelectItem value="Web Development">Web Development</SelectItem>
-                <SelectItem value="UI/UX Design"> UI/UX Design</SelectItem>
+                <SelectItem value="Web Development">App Development</SelectItem>
+                <SelectItem value="UI/UX Design"> System Design</SelectItem>
                 <SelectItem value="SEO Management">SEO Management</SelectItem>
 
               </SelectGroup>
