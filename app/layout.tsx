@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+// @ts-expect-error CSS imports are handled by the bundler
 import "./globals.css";
 import Header from "../components/Header";
 import localFont from "next/font/local";

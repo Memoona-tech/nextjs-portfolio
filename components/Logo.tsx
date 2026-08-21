@@ -16,7 +16,7 @@ const Logo = ({title, subtitle }: props) => {
             "font-semibold hover:text-hoverColor tracking-wide hoverEffect"
           )}
         >
-          {title} <span className="text-lightSky group-hover:text-white hoverEffect">{subtitle}</span>
+          {title} <span className="text-lightPurple group-hover:text-white hoverEffect">{subtitle}</span>
         </h2>
       </Link>
     </div>

@@ -22,7 +22,7 @@ export default function Home() {
             <h2 className="text-3xl md:text-5xl mb-2 text-white">
               Hello, I&apos;m
             </h2>
-            <h1 className="text-lightSky text-5xl md:text-7xl tracking-normal">
+            <h1 className="text-lightPurple text-5xl md:text-7xl tracking-normal">
               Memoona Saleem
             </h1>
           </div>
@@ -38,13 +38,13 @@ export default function Home() {
           <Button
             className="bg-transparent 
             rounded-full border 
-            border-lightSky/50 
-            text-lightSky 
+            border-lightPurple/50 
+            text-lightPurple 
             hover:bg-hoverColor 
             hover:text-black hoverEffect"
-            onClick={() => window.open("resume.pdf", "_blank")}
+            onClick={() => window.open("Memoona-Saleem.pdf", "_blank")}
           >
-            Download CV <Download />
+            Download Resume <Download />
           </Button>
 
           {/* Social Links & Statistics */}

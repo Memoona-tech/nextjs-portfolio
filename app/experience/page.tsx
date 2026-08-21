@@ -15,9 +15,9 @@ const experience = () => {
             <div
               key={item.id}
               className="flex flex-col p-6 
-              bg-lightSky/5 border
-              border-lightSky/20 
-              hover:border-lightSky/30 
+              bg-lightPurple/5 border
+              border-lightPurple/20 
+              hover:border-lightPurple/30 
               rounded-lg shadow-md group hover:shadow-lg gap-2.5 hoverEffect"
             >
               <div className="w-full flex ">

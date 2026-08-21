@@ -43,10 +43,10 @@ const SocialLinks = () => {
         <Tooltip key={item?.title}>
             <TooltipTrigger asChild>
             <div 
-                className=" text-lightSky/80 border 
-                border-lightSky/30 p-2.5
+                className=" text-lightPurple/80 border 
+                border-lightPurple/30 p-2.5
                 hover:bg-hoverColor/10
-                hover:border-lightSky
+                hover:border-lightPurple
                 hoverEffect
                 rounded-full"
                 >

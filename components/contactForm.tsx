@@ -93,7 +93,7 @@ const ContactForm = () => {
   }
   return (
     <div className="space-y-4">
-      <h3 className="text-2xl md:text-4xl text-lightSky">
+      <h3 className="text-2xl md:text-4xl text-lightPurple">
         Let&apos;s work together
       </h3>
       <p className="text-white/80">
@@ -181,7 +181,7 @@ const ContactForm = () => {
           <Button
             disabled={isLoading}
             type="submit"
-            className="w-full py-4 bg-lightSky/5 text-white/80 border border-lightSky/20 hover:bg-lightSky/10 hover:border-lightSky hover:text-hoverColor hoverEffect "
+            className="w-full py-4 bg-lightPurple/5 text-white/80 border border-lightPurple/20 hover:bg-lightPurple/10 hover:border-lightPurple hover:text-hoverColor hoverEffect "
           >
             {isLoading ? "Submitting message..." : "Send message"}
           </Button>

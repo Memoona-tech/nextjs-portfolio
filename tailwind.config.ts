@@ -15,8 +15,8 @@ export default {
 		},
   		colors: {
 			bodyColor: "#1c1c22",
-			lightSky: "#ff66b3",
-			hoverColor: "#c55f8f",
+			lightPurple: "#D1BAFF",
+			hoverColor: "#a15fc5",
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {

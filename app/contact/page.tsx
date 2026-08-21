@@ -35,7 +35,7 @@ const contactPage = () => {
           <div className="w-full md:w-1/3 flex flex-col justify-center gap-4 md:gap-8">
             {infoData?.map((item) => (
               <div className="flex items-center space-x-4" key={item?.title}>
-                <span className="bg-lightSky/10 p-3 border rounded-lg border-hoverColor/10 text-hoverColor">
+                <span className="bg-lightPurple/10 p-3 border rounded-lg border-hoverColor/10 text-hoverColor">
                   {item?.icon}
                 </span>
 

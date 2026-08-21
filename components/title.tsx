@@ -6,7 +6,7 @@ interface Props{
 }
 const title = ({children,className}:Props) => {
   return (
-    <h2 className={cn('text-xl text-lightSky font-bold mb-4' , className)}>{children}</h2>
+    <h2 className={cn('text-xl text-lightPurple font-bold mb-4' , className)}>{children}</h2>
   )
 }
 

@@ -112,7 +112,7 @@ const resumePage = () => {
               <TabsTrigger
                 key={item?.value}
                 value={item?.value}
-                className="bg-white/10 w-full py-2.5 text-white data-[state=active]:bg-lightSky hover:bg-lightSky/60 text-xs sm:text-sm"
+                className="bg-white/10 w-full py-2.5 text-white data-[state=active]:bg-lightPurple hover:bg-lightPurple/60 text-xs sm:text-sm"
               >
                 <div className="flex items-center gap-1.5 md:w-[50%] md:gap-3">
                   <item.icon className="w-4 h-4 md:h-5 md:w-5" />
@@ -127,7 +127,7 @@ const resumePage = () => {
               <motion.h2
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
-                className="text-2xl font-bold mb-6 text-lightSky"
+                className="text-2xl font-bold mb-6 text-lightPurple"
               >
                 {tabsContent.experience.title}
               </motion.h2>
@@ -139,7 +139,7 @@ const resumePage = () => {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.1 * index }}
                     key={index}
-                    className="border rounded-lg border-lightSky/20 p-6 hover:border-lightSky/30 hover:bg-lightSky/5 "
+                    className="border rounded-lg border-lightPurple/20 p-6 hover:border-lightPurple/30 hover:bg-lightPurple/5 "
                   >
                     <div className="flex justify-between items-start mb-4">
                       <div className="flex items-start justify-between mb-4">
@@ -168,7 +168,7 @@ const resumePage = () => {
               <motion.h2
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
-                className="text-2xl font-bold mb-6 text-lightSky"
+                className="text-2xl font-bold mb-6 text-lightPurple"
               >
                 {tabsContent.education.title}
               </motion.h2>
@@ -180,7 +180,7 @@ const resumePage = () => {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.1 * index }}
                     key={index}
-                    className="border rounded-lg border-lightSky/20 p-6  hover:border-lightSky/30 hover:bg-lightSky/5 "
+                    className="border rounded-lg border-lightPurple/20 p-6  hover:border-lightPurple/30 hover:bg-lightPurple/5 "
                   >
                     <div className="flex justify-between items-start mb-4">
                       <div className="flex items-start justify-between mb-4">
@@ -217,14 +217,14 @@ const resumePage = () => {
                 <motion.h2
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
-                  className="text-2xl font-bold mb-6 text-lightSky"
+                  className="text-2xl font-bold mb-6 text-lightPurple"
                 >
                   {tabsContent.about.title}
                 </motion.h2>
                 <motion.div
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
-                  className="border rounded-lg border-lightSky/20 p-6"
+                  className="border rounded-lg border-lightPurple/20 p-6"
                 >
                   <p className="mb-6 text-lg">{tabsContent.about.bio}</p>
                   <div className="space-y-4">

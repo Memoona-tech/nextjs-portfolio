@@ -4,7 +4,7 @@ import Image from "next/image";
 import { motion } from "motion/react";
 import Mypicture from "../images/Mypicture.png";
 const photo = () => {
-  const circleColors = ["#ff66b3"];
+  const circleColors = ["#a15fc5"];
   const circleVariants = {
     initial: {
       strokeDasharray: "24 10 0 0",

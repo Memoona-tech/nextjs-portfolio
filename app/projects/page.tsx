@@ -126,7 +126,7 @@ const ProjectPage = () => {
           <CarouselContent>
             {Projects?.map((project) => (
               <CarouselItem key={project.id}>
-                <Card className="bg-bodyColor border-lightSky/20 hover:border-lightSky/30">
+                <Card className="bg-bodyColor border-lightPurple/20 hover:border-lightPurple/30">
                   <CardContent className="p-6">
                     <div className="flex flex-col md:flex-row md:items-center md:space-x-8 group">
                       {/* description */}
@@ -137,7 +137,7 @@ const ProjectPage = () => {
                               {project?.id}
                             </h2>
 
-                            <h3 className="text-xl md:text-3xl font-bold leading-none text-white group-hover:text-lightSky hoverEffect">
+                            <h3 className="text-xl md:text-3xl font-bold leading-none text-white group-hover:text-lightPurple hoverEffect">
                               {project?.category} Project
                             </h3>
                             <p className="text-white/60 text-sm md:text-base leading-6 md:leading-normal py-4 ">
@@ -148,7 +148,7 @@ const ProjectPage = () => {
                               {project?.stack?.map((item, index) => (
                                 <li
                                   key={index}
-                                  className="text-xs md:text-base text-lightSky/80"
+                                  className="text-xs md:text-base text-lightPurple/80"
                                 >
                                   {item}
                                   {index !== project?.stack?.length - 1 && ","}
@@ -162,7 +162,7 @@ const ProjectPage = () => {
                                 <TooltipTrigger asChild>
                                   <Button
                                     size="icon"
-                                    className=" items-center text-lightSky border border-hoverColor/30 hover:bg-lightSky/10 hover:border-lightSky/70"
+                                    className=" items-center text-lightPurple border border-hoverColor/30 hover:bg-lightPurple/10 hover:border-lightPurple/70"
                                   >
                                     <Link
                                       href={project?.githubUrl}
@@ -198,13 +198,13 @@ const ProjectPage = () => {
           </CarouselContent>
           <div className="absolute right-10 -bottom-8 ">
             <CarouselPrevious className="rounded-md bg-transparent 
-            border border-lightSky/50 
-            hover:bg-lightSky/10 
+            border border-lightPurple/50 
+            hover:bg-lightPurple/10 
             hover:border-hoverColor/80 
             hoverEffect hover:text-white p-5"/>
             <CarouselNext className="rounded-md bg-transparent 
-            border border-lightSky/50 
-            hover:bg-lightSky/10 
+            border border-lightPurple/50 
+            hover:bg-lightPurple/10 
             hover:border-hoverColor/80 
             hoverEffect hover:text-white p-5"/>
           </div>
