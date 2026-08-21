@@ -42,9 +42,9 @@ export default function Home() {
             text-lightSky 
             hover:bg-hoverColor 
             hover:text-black hoverEffect"
-            onClick={() => window.open("Memoona-Resume.pdf", "_blank")}
+            onClick={() => window.open("Memoona-Saleem.pdf", "_blank")}
           >
-            Download CV <Download />
+            Download Resume <Download />
           </Button>
 
           {/* Social Links & Statistics */}
