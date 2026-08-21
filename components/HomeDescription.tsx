@@ -7,7 +7,7 @@ import { useEffect, useState } from "react";
 const HomeDescription = () => {
   const [hasLoaded, setHasLoaded] = useState(false);
   const description =
-    " A Computer Science undergraduate student with a passion for software development and problem-solving.";
+    "I am a Computer Science undergraduate with huge passion for software development and problem-solving.";
 
   const { displayedText, isComplete } = useTypeWriter(description, 30);
 

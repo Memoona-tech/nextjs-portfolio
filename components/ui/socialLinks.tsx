@@ -17,19 +17,8 @@ const socialData = [
   {
       title: "Email",
       icon: <Mail/>,
-      href: "mailto:cuteskiesquery@gmail.com",
+      href: "mailto:memoona.se@gmail.com",
     },
-  {
-    title: "YouTube",
-    icon: <Youtube />,
-    href: "https://www.youtube.com",
-  },
-  {
-    title: "Instagram",
-    icon: <Instagram />,
-    href: "https://www.instagram.com",
-  },
-  
 ];
 
 const SocialLinks = () => {
