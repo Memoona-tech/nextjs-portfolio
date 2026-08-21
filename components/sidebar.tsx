@@ -54,11 +54,7 @@ const Sidebar: React.FC<Props> = ({ isOpen, onClose, pathName }: Props) => {
         ))}
 
         <Link
-<<<<<<< HEAD
             href="Memoona-Saleem.pdf"
-=======
-            href="Memoona-Resume.pdf"
->>>>>>> 25f069a8709b5f4ad4957271847a5da3036dc781
             target="_blank"
             rel="noopener noreferrer"
             className="text-sm bg-lightPurple/10 px-4 py-2 rounded-md border border-hoverColor/10 hover:border-hoverColor hover:bg-hoverColor hover:text-black hoverEffect"
