@@ -45,7 +45,7 @@ const Projects = [
   {
     id: "02",
     title: "Memoona's Portfolio",
-    category: "Frontend",
+    category: "Full Stack",
     description:
       "A personal portfolio website to showcase my skills, projects, and experiences. It is designed to be visually appealing and user-friendly.",
     stack: ["React / Nextjs", "Tailwind CSS", "TypeScript"],
@@ -55,7 +55,7 @@ const Projects = [
   {
     id: "03",
     title: "Journal App",
-    category: "Frontend",
+    category: "Full Stack",
     description:
       "A cute journaling app to keep your secrets inside a 4-digit PIN-ed locker",
     stack: ["React / Nextjs", "Tailwind CSS", "TypeScript"],

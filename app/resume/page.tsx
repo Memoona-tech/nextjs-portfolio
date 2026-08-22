@@ -26,18 +26,18 @@ const tabsContent = {
         role: "Technical/Programmatic Sills",
         Description:
           "Data Structures and Algorithms, System Designs.",
-        highlights: ["Python", "C++"],
+        highlights: ["Python", "C++", "JavaScript"],
       },
       {
         role: "Related Coursework",
         Description: "Learnt the following subjects during my academic years:",
-        highlights: ["Probability & Statistics", "Discrete Mathematics", "Computer Organization & Assembly Language","Calculus & Analytical Geometry", "Multivariate Calculus", "Operating Systems", "Compiler Construction", "Database Systems", "Computer Networks"]
+        highlights: ["Data Structures & Algorithms", "Probability & Statistics", "Discrete Mathematics", " Software Engineering (Agile, Scrum, Kanban and many other concepts)", "Computer Organization & Assembly Language","Calculus & Analytical Geometry", "Multivariate Calculus", "Operating Systems", "Web Technologies", "Artificial Intellegence", "Compiler Construction", "Database Systems", "Computer Networks"]
       },
       {
         role: "Tools",
         Description:
           "Git & GitHub, VScode, Linux",
-        highlights: ["Git & GitHub", "VScode", "Linux"],
+        highlights: ["Git & GitHub", "VScode", "Claude", "Cursor"],
       },
     ],
   },
@@ -48,9 +48,10 @@ const tabsContent = {
       {
         degree: "Bachelors of Computer Science",
         period: "On going",
+        instituation: "University of the Punjab, Lahore",
         Description:
           "Currently persuing bachelors in CS and Robusting my skills in the emerging field of Computer Science and learning new technologies",
-        highlights: ["Probability & Statistics", "Discrete Mathematics", "Computer Organization & Assembly Language","Calculus & Analytical Geometry", "Multivariate Calculus", "Operating Systems", "Compiler Construction", "Database Systems", "Computer Networks"]
+        highlights: ["Probability & Statistics", "Discrete Mathematics", "Artificial Intellegence", "Computer Organization & Assembly Language","Calculus & Analytical Geometry", "Multivariate Calculus", "Operating Systems", "Compiler Construction", "Database Systems", "Computer Networks"]
     ,
       },
       {
@@ -70,7 +71,7 @@ const tabsContent = {
           "Learnt a lot about different branches of Science such as Biology, Chemistry, Mathematics, Physics and many others",
         highlights: [
           "A+ Grade",
-          "Topped the class",
+          "Stood 2nd in the class",
         ],
       },
     ],
