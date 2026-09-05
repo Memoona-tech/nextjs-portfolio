@@ -1,0 +1,19 @@
+
+> portfolio@0.1.0 build C:\Users\Admin\portfolio
+> next build
+
+   ▲ Next.js 15.1.11
+   - Environments: .env
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully
+   Skipping validation of types
+   Skipping linting
+   Collecting page data ...
+[Error [PageNotFoundError]: Cannot find module for page: /_not-found] {
+  code: 'ENOENT'
+}
+
+> Build error occurred
+[Error: Failed to collect page data for /_not-found] { type: 'Error' }
+ ELIFECYCLE  Command failed with exit code 1.
